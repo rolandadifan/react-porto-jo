@@ -19,7 +19,7 @@ const Header = () => {
                  />
                  <div className="row button-head-wrap mt-5">
                      <div className="col">
-                         <a href="#" className="btn-main-offer">CONTACT</a>
+                         <a href="#contact" className="btn-main-offer">CONTACT</a>
                      </div>
                      <div className="col">
                          <a href="" className="btn-main-offer">Unduh CV</a>
