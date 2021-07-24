@@ -1,38 +1,223 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  /* nav */
+  nav{
+    z-index: 2;
   }
+.name-header{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+  border-top: 0.1875rem solid #99C84D
+;
+}
+
+/* header */
+.header-wrapper{
+  position: relative;
+  background: url(./asset/background-header.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-info{
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.main-info h1{
+  color:  #99C84D;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.typed-text{
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+.btn-main-offer{
+  border: 1px solid #99C84D;
+  font-weight: bold;
+  border-radius: 0;
+  padding: 10px 12px 12px 12px;
+  color: whitesmoke;
+  margin: 2rem;
+}
+
+.btn-main-offer:hover{
+  color: black;
+  background-color: #99C84D;
+  transition:  .2s ease-in-out;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button-head-wrap{
+  width: 400px;
+}
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+/* about */
+
+
+.about-wrapper{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+.tool-skill:hover{
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.detail-about{
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.03em
+}
+
+.image-about:hover{
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+/* project */
+
+
+.project-wrapper{
+ position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-bottom: 100px;
+}
+
+.title-project{
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 75px;
+
+
+color: #000000;
+}
+
+.img-project{
+  width: 350px;
+}
+.card-custome{
+  width: 800px;
+  height: 500px;
+  background: linear-gradient(180deg, #E0F1BD 0%, rgba(255, 255, 255, 0) 100%), #57E075;
+  border-radius: 20px;  
+}
+@media only screen and (max-width: 768px) {
+  .project-wrapper{
+    margin-top: 300px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
   }
-  to {
-    transform: rotate(360deg);
+  .img-project{
+    width: 250px;
   }
 }
+
+.card-custome-two{
+  width: 800px;
+  height: 500px;
+  background: linear-gradient(180deg, #FDD497 0%, rgba(255, 255, 255, 0) 100%), #F5F932;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* sertificate */
+.sertif-wrapper{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-bottom: 50px;
+  
+}
+@media only screen and (max-width: 768px) {
+  .img-sertif{
+    padding-right: 40px;
+  width: 300px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+}
+
+.img-sertif{
+  width: 400px;
+  height: 500px;
+}
+
+/* contact */
+@media only screen and (max-width: 768px) {
+  .contact-wrapper{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: 500px !important;
+}
+
+}
+.contact-wrapper{
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: 200px;
+}
+
+.img-sosmed{
+  width: 100px;
+}
+
+.img-sosmed:hover{
+  transform: translateY(-10px);
+}
+
+.title-sosmed{
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+
+
+
