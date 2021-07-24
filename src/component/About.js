@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import ImageP from '../asset/Group 8.png';
 import Fade from 'react-reveal/Fade';
 import PS from '../asset/image 7.png';

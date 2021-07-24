@@ -14,7 +14,7 @@ const Contact = () => {
             <hr />
             <div className="row justify-content-center mt-5">
                 <div className="col-md-6 col-12">
-                    <a href="https://www.facebook.com/jofardo.adlinnas" target="_blank">
+                    <a href="https://www.facebook.com/jofardo.adlinnas" target="_blank" rel="noreferrer">
                     <Fade bottom delay={100}>
                         <div className="d-flex align-items-center">
                             <img src={Facebook} className="img-sosmed" alt="" />
@@ -24,7 +24,7 @@ const Contact = () => {
                     </a>
                 </div>
                 <div className="col-md-6 col-12">
-                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jofardo52@gmail.com&su=Subject&body=Body%20Text" target="_blank">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jofardo52@gmail.com&su=Subject&body=Body%20Text" target="_blank" rel="noreferrer" >
                      <Fade bottom delay={200}>
                         <div className="d-flex align-items-center">
                             <img src={Gmail} className="img-sosmed" alt="" />
@@ -37,7 +37,7 @@ const Contact = () => {
             </div>
             <div className="row justify-content-center mt-5">
                 <div className="col-md-6 col-12">
-                     <a href="https://api.whatsapp.com/send?phone=6281251237790" target="_blank">
+                     <a href="https://api.whatsapp.com/send?phone=6281251237790" target="_blank" rel="noreferrer">
                     <Fade bottom delay={300}>
                            <div className="d-flex align-items-center">
                             <img src={WA} className="img-sosmed" alt="" />
@@ -48,7 +48,7 @@ const Contact = () => {
                     </a>
                 </div>
                 <div className="col-md-6 col-12">
-                    <a href="https://www.instagram.com/jofardo/" target="_blank">
+                    <a href="https://www.instagram.com/jofardo/" target="_blank" rel="noreferrer">
                     <Fade bottom delay={400}>
                         <div className="d-flex align-items-center">
                             <img src={IG} className="img-sosmed" alt="" />
