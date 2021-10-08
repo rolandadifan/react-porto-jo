@@ -61,6 +61,7 @@ const Project = () => {
                 <div className="col-md-4 col-12">
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.figma.com/file/Le6mnfmDmzR4DTCD3xknhx/IM_UIUX_%5BJofardho-adlinnas%5D_TugasHarian-13.?node-id=0%3A1"
                     className="project-read-case"
                   >
@@ -98,12 +99,12 @@ const Project = () => {
                 <div className="modal-body">
                   <Carousel plugins={["arrows"]}>
                     <img src={Image1} className="image-project-1" />
-                    <img src={Image2} className="image-project-1"  />
-                    <img src={Image3} className="image-project-1"  />
-                    <img src={Image4} className="image-project-1"  />
-                    <img src={Image5} className="image-project-1"  />
+                    <img src={Image2} className="image-project-1" />
+                    <img src={Image3} className="image-project-1" />
+                    <img src={Image4} className="image-project-1" />
+                    <img src={Image5} className="image-project-1" />
                     <img src={Image6} className="image-project-1" />
-                    <img src={Image7} className="image-project-1"  />
+                    <img src={Image7} className="image-project-1" />
                     <img src={Image8} className="image-project-1" />
                     <img src={Image9} className="image-project-1" />
                     <img src={Image10} className="image-project-1" />
