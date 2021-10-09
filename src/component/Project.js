@@ -47,7 +47,9 @@ const Project = () => {
                   </button>
                 </div>
                 <div className="col-md-4 col-12">
-                  <img src={Project2} className="img-project" alt="" />
+                  <button type="button" className="btn" data-toggle="modal" data-target="#exampleModal">
+                    <img src={Project2} className="img-project" alt="" />
+                  </button>
                 </div>
               </div>
             </div>
@@ -85,7 +87,7 @@ const Project = () => {
               <div className="modal-content">
                 <div className="modal-header">
                   <h5 className="modal-title" id="exampleModalLabel">
-                    Modal title
+                    Pilih Jurusan
                   </h5>
                   <button
                     type="button"
